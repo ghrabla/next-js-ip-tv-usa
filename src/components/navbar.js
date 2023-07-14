@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div class="block lg:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded text-black border-black-400 hover:text-black hover:border-white"
+            class="flex items-center px-3 py-2 border rounded text-black border-black-400 hover:text-orange-500 hover:border-white"
             onClick={showfun}
           >
             <svg
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div class="text-sm lg:flex-grow">
               <a
                 href="javascript:void(0)"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange-500 mr-4"
               >
                 Home
               </a>
@@ -50,31 +50,31 @@ const Navbar = () => {
               <>
               <a
                 href="javascript:void(0)"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange-500 mr-4"
               >
-                Account
+                About
               </a>
             
               <a
                 href="javascript:void(0)"
-                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange-500 mr-4"
               >
-                Logout
+                Pricing
               </a>
               </>
               <>
                   <a
                     href="javascript:void(0)"
-                    class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange-500 mr-4"
                   >
-                    Register
+                    Channels
                   </a>
                 
                   <a
                     href="javascript:void(0)"
-                    class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange-500"
                   >
-                    Login
+                    Subscription
                   </a>
                 
               </>
